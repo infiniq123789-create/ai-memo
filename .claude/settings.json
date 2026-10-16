@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(**/.env)",
+      "Read(**/.env.local)",
+      "Read(**/.env.development)",
+      "Read(**/.env.production)",
+      "Read(**/.env.test)",
+      "Read(**/.env.*.local)",
+      "Read(**/*secret*)",
+      "Read(**/*credential*)",
+      "Read(**/*.pem)",
+      "Read(**/*.key)",
+      "Edit(**/.env)",
+      "Edit(**/.env.local)",
+      "Edit(**/.env.development)",
+      "Edit(**/.env.production)",
+      "Edit(**/.env.test)",
+      "Edit(**/.env.*.local)",
+      "Edit(**/*secret*)",
+      "Edit(**/*credential*)",
+      "Edit(**/*.pem)",
+      "Edit(**/*.key)"
+    ]
+  }
+}
